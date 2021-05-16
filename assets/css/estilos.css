@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+@font-face{
+
+    font-family:solid1;
+     src:url("../fonts/Main_font/solid.ttf")  format('truetype');
+     
+}
+@font-face{
+
+    font-family:solid2;
+     src:url("../fonts/Body_text/Raleway-Regular.ttf")  format('truetype');
+     
+}
+
+
+body{
+
+    background: rgb(100, 0, 131);
+    font-family: solid1;
+
+}
+
+/*Inicia header*/
+
+.logo-header{
+    
+    background:rgb(122, 205, 238);
+    height: 60px;
+
+}
+.img-logo{
+
+    height: 110%;
+    width: auto;
+ 
+}
+
+.img-central{
+
+    width:100%;
+    height: auto;
+   
+}
+
+
+.down-header{
+
+    height: 65px;
+    background:rgb(79, 26, 95);;
+
+}
+h1{
+
+    position: absolute;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 70px;
+    margin: 0px 30%;
+    
+}
+.img-down{
+
+    position: static;
+    height: 55px;
+    float: right;
+    margin: 6px 10%;
+
+}
+
+/*Termina el header*/
+
+/*Inicia conteiner1*/
+.conteiner{
+
+    height: 360px;
+    background: rgb(235, 235, 235);
+    padding: 60px;
+
+}
+.title1{
+
+    background:  rgb(180, 182, 87);
+    border-radius:100px;
+    color: rgb(56, 0, 124);
+    font-size: 22px;
+    padding: 20px 50px;
+    margin: 8px 85px;
+}
+
+
+.imgs-horn{
+
+    margin: 40px 160px;
+}
+.horn{
+
+    height: 80px;
+    float: right;
+    margin: -10px 100%;
+    position:static;
+}
+
+.p-write1{
+
+    position: absolute;
+    margin: 9px 180px;
+}
+.write1{
+
+    font-family: solid2;
+    padding: 13px;
+    font-size: 16px;
+    color: rgb(56, 0, 109);
+
+}
+
+/*Termina el conteiner1*/
+
+/*Inicia conteiner2*/
+
+.conteiner2{
+
+    background:rgb(0, 183, 255); 
+    height: 350px;
+
+}
+
+.title2{
+
+    background:  rgb(231, 0, 162);
+    border-radius: 100px;
+    color: white;
+    font-size: 22px;
+    line-height: 120px;
+    padding: 20px 50px;
+    margin: 8px 90px;
+    
+}
+
+.imgs-idea{
+    
+    margin: -10% 90%;
+}
+.idea{
+
+    position: static;
+    height: 350px;
+    float: right;
+    margin: -10px 100%;
+   
+}
+.p-write2{
+
+    position: absolute;
+    margin: 10% 12%;
+    
+}
+.write2{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+/*Termina el conteiner2*/
+
+/*Inicia el conteiner3*/
+.conteiner3{
+
+    background:rgb(179, 15, 230); 
+    height: 500px;
+}
+.title3{
+
+    background:  rgb(238, 234, 0);
+    border-radius: 100px;
+    color: white;
+    font-size: 22px;
+    line-height: 120px;
+    padding: 20px 50px;
+    margin: 8px 90px;
+    
+}
+
+
+
+/*Termina el conteiner3*/
+
+/*Inicia el conteiner4*/
+.conteiner4{
+
+    background:rgb(255, 199, 15); 
+    height: 800px;
+}
+.imgs-slides{
+
+    margin: 0px 10%;
+}
+.slides{
+
+
+    height: 300px;
+    margin: 20px;
+
+}
+
+
+/*Termina el conteiner3*/
+
+/*Inicia el conteiner4*/
+.conteiner5{
+
+    background:rgb(113, 213, 243); 
+    height: 600px;
+}
+.title5{
+
+    background-image:  rgb(110, 33, 121);
+    border-radius: 100px;
+    color: white;
+    font-size: 22px;
+    line-height: 120px;
+    padding: 20px 50px;
+    margin: 8px 90px;
+ 
+}
+
+.slide{
+
+    height: 400px;
+    margin: 0px 16%;
+
+}
+
+/*Termina el conteiner5*/
+
+/*Inicia el  footer*/
+footer{
+
+    background:rgb(91, 0, 196); 
+    height: 115px;
+}
+.h1{
+
+    position: absolute;
+    font-size: 20px;
+    line-height: -90px;
+    font-family: solid1;
+    margin:20px 200px;
+}
+
+.img-footer{
+
+    position: relative;
+    float: right;
+    height: 80px;
+    margin: 20px 60px;
+    
+}
+
